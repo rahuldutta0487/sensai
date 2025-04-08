@@ -77,6 +77,18 @@ export default async function Header() {
                   </Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild>
+  <Link
+    href="https://ai-interview-mocker-delta.vercel.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-2"
+  >
+    <StarsIcon className="h-4 w-4" />
+    AI Interview Preparation
+  </Link>
+</DropdownMenuItem>
+
+                <DropdownMenuItem asChild>
                   <Link href="/interview" className="flex items-center gap-2">
                     <GraduationCap className="h-4 w-4" />
                     Interview Prep
